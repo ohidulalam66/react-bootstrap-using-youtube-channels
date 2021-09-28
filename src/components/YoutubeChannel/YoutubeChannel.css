@@ -1,0 +1,65 @@
+.card {
+  background: rgb(182, 245, 245);
+}
+.img {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+.info-icon {
+  color: red;
+  font-size: 20px;
+}
+.media-icon {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.fa-github {
+  color: white;
+}
+.fa-github:hover {
+  color: #212529;
+}
+.fa-facebook {
+  color: white;
+}
+.fa-facebook:hover {
+  color: #4267b2;
+}
+.fa-twitter {
+  color: white;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+.anchor {
+  font-weight: 700;
+  text-decoration: none;
+}
+#outer {
+  width: 250px;
+  margin: 10px;
+  text-align: center;
+}
+.button_slide {
+  color: black;
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 5px;
+  /* display: inline-block; */
+  /* font-family: "Lucida Console", Monaco, monospace; */
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 black;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.slide_left:hover {
+  color: white;
+  box-shadow: inset 0 0 0 50px black;
+}
