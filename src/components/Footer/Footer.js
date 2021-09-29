@@ -7,7 +7,7 @@ const Footer = () => {
             <div className= "text-white footer-container">
                 <div className= "about-section">
                 <div>
-                    <h2>About ME</h2>
+                    <h2 className= "fw-bold">About ME</h2>
                     <hr/>
                     <p className= "fs-4">My name is <b className= "text-danger fs-5">Mohammad Ohidul Alam</b>. I am a student of programming heroes. I am studying in CSE department. It's a top and popular programming YouTube channel's website, I think for those who want to learn programming can learn a lot as programming from these notable people channel.I respect them.</p>
                 </div>
