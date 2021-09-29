@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import YoutubeChannels from './components/YoutubeChannels/YoutubeChannels';
 
@@ -8,6 +9,7 @@ function App() {
     <>
     <Header/>
     <YoutubeChannels/>
+    <Footer/>
     </>
   );
 }

@@ -1,0 +1,25 @@
+.footer-container {
+  width: 100%;
+  height: auto;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  background: rgb(77, 74, 74);
+}
+.about-section {
+  width: 500px;
+}
+.footer-container ul {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-container ul a {
+  font-size: 40px;
+}
+.footer-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid white;
+  border-radius: 20px;
+}
